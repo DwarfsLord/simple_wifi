@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "art-of-wifi/unifi-api-client",
-            "version": "v1.1.78",
+            "version": "v1.1.79",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Art-of-WiFi/UniFi-API-client.git",
-                "reference": "4fe1780e1dd9e6f0349c0d21a7d7ad68980610b2"
+                "reference": "cbe89d913cc4dd3742d5fd35e201ec86bc8ccdc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Art-of-WiFi/UniFi-API-client/zipball/4fe1780e1dd9e6f0349c0d21a7d7ad68980610b2",
-                "reference": "4fe1780e1dd9e6f0349c0d21a7d7ad68980610b2",
+                "url": "https://api.github.com/repos/Art-of-WiFi/UniFi-API-client/zipball/cbe89d913cc4dd3742d5fd35e201ec86bc8ccdc9",
+                "reference": "cbe89d913cc4dd3742d5fd35e201ec86bc8ccdc9",
                 "shasum": ""
             },
             "require": {
@@ -54,9 +54,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Art-of-WiFi/UniFi-API-client/issues",
-                "source": "https://github.com/Art-of-WiFi/UniFi-API-client/tree/v1.1.78"
+                "source": "https://github.com/Art-of-WiFi/UniFi-API-client/tree/v1.1.79"
             },
-            "time": "2022-03-11T12:24:31+00:00"
+            "time": "2022-03-28T09:57:57+00:00"
         }
     ],
     "packages-dev": [],
