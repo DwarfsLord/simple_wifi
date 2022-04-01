@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background: black;
+}
+.root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    /* width: 1000px; */
+    background-color: #e1e1e1;
+}
+.save{
+    position: fixed;
+    z-index: 1;
+    right: 10px;
+    top: 10px;
+}
+.button{
+    
+    cursor: pointer;
+    display: none;
+    font-size: xx-large;
+    margin: 10px;
+    padding: 10px;
+    background-color: #32df32;
+    border-radius: 10px;
+
+}
+.title{
+    position: fixed;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: xxx-large;
+    max-height: 100px;
+}
+.content{
+    display: flex;
+    justify-content: flex-start;
+    min-height: 100vh;
+    align-items: flex-start;
+    /* border-left: black solid 2px;
+    border-right: black solid 2px; */
+    padding-top: 100px;
+}
+.option{
+    margin: 30px;
+    border: #003cff solid 0px;
+    border-radius: 40px;
+}
+
+label{
+    font-size: x-large;
+}
+
+table.time{
+    margin-top: 20px;
+    border-collapse: collapse;
+    user-select: none;
+}
+td.cal{
+    border: 1px black solid;
+    text-align: -webkit-center;
+    padding: 0px 5px 0px 5px;
+    cursor: pointer;
+}
+td.head{
+    font-weight: bold;
+    cursor: auto;
+}
+td.on{
+    background-color: #8fff85;
+}
+td.off{
+    background-color: #ff8585;
+}
