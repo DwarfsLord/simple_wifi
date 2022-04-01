@@ -33,7 +33,7 @@ class ui_schedule_event{
         $this->name = "";
         $this->start_minute = $start_time%60;
         $this->start_hour = (($start_time-$this->start_minute)/60)%(24);
-        $this->start_days_of_week = [strtolower(jddayofweek(($start_time - $this->start_hour * 60 - $this->start_minute)/(60*24),2))];
+        $this->start_days_of_week = [jd2dayofweek(($start_time - $this->start_hour * 60 - $this->start_minute)/(60*24))];
         $this->duration_minutes = $end_time - $start_time + 1;
     }
 }
@@ -124,5 +124,25 @@ function dayofweek2jd(string $day): int
             return 5;
         default:
             return 6;
+    }
+}
+
+function jd2dayofweek(int $day): string
+{
+    switch ($day) {
+        case 0:
+            return 'mon';
+        case 1:
+            return 'tue';
+        case 2:
+            return 'wed';
+        case 3:
+            return 'thu';
+        case 4:
+            return 'fri';
+        case 5:
+            return 'sat';
+        default:
+            return 'sun';
     }
 }

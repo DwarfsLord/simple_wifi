@@ -180,7 +180,7 @@ function div2bincal(){
                 <?php
                     echo "<tr>";
                     for ($j=0; $j < 7; $j++) {
-                        echo '<td class="cal head">'. jddayofweek($j, 2) . '</td>';
+                        echo '<td class="cal head">'. jd2dayofweek($j, 2) . '</td>';
                     }
                     echo "</tr>";
                     for ($i=0; $i < HOUR_SUBDIVISIONS*24; $i++) {
